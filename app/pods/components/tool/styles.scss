@@ -1,0 +1,27 @@
+@value secondary from 'ember-blines/styles/colors';
+
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.toolContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.tool {
+  padding:  1.25rem 3rem 1.5rem 3rem; // 24px with 16px default font-size
+  background: secondary;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2rem; // 32px with 16px default font-size
+}

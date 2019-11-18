@@ -1,0 +1,13 @@
+<div local-class="root">
+  <div class="media">
+    <div local-class="card">
+      <JubileeSelect
+        @items={{@model}}
+        @selectedItem={{this.selectedStop}}
+        @onChange={{action (mut this.selectedStop)}} as |stop|
+      >
+        {{stop.name}}
+      </JubileeSelect>
+    </div>
+  </div>
+</div>

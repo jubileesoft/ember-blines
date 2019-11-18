@@ -1,0 +1,31 @@
+@value primary, onPrimary from 'ember-blines/styles/colors';
+@value secondary from 'ember-blines/styles/colors';
+
+.root {
+  height: 4.5rem; // 72px with 16px default font-size
+  background: primary;
+  color: onPrimary;
+
+  border-bottom: 4px solid secondary;
+  
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.brand {
+  font-size: 1.5rem; // 24px with 16px default font-size
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.brandComponents {
+  display: flex;
+}
