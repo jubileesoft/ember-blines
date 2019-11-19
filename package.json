@@ -1,11 +1,13 @@
 {
   "name": "ember-blines",
   "version": "0.0.0",
-  "private": true,
   "description": "Small description for ember-blines goes here",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jubileesoft/ember-blines"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Christian Ellerbrock",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -56,7 +58,7 @@
     "node": "8.* || >= 10.*"
   },
   "dependencies": {
-    "@jubileesoft/ember-jubileesoft-ui": "^0.6.1",
+    "@jubileesoft/ember-jubileesoft-ui": "^0.6.2",
     "@jubileesoft/hotzenplotz": "0.0.2"
   }
 }

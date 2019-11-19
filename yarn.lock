@@ -1154,15 +1154,15 @@
     "@glimmer/interfaces" "^0.41.4"
     "@glimmer/util" "^0.41.4"
 
-"@jubileesoft/ember-jubileesoft-ui@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@jubileesoft/ember-jubileesoft-ui/-/ember-jubileesoft-ui-0.6.1.tgz#b666c6618999db386c180921bfd1aaf1c5698311"
-  integrity sha512-65wTDuEsmWDCYRMXpndmyyN5rBT99OLAqh1VdQYY72QQzZxoP59QS3McYpdI8oyJ9WAD8tu9b6yYiHiHVZPCPQ==
+"@jubileesoft/ember-jubileesoft-ui@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@jubileesoft/ember-jubileesoft-ui/-/ember-jubileesoft-ui-0.6.2.tgz#b4ebb5326a8456feaa0901ba0c4b041a7aacbd6d"
+  integrity sha512-wM5FZ2OIJmjzZrFtnzkuwFoNQxhBf+HH0cXjSbemFyIUxI5ZSO0CoisQ+ynCQTvwe/uyy34Tm+knyz5bPSLbQg==
   dependencies:
     "@fortawesome/ember-fontawesome" "^0.1.14"
     "@fortawesome/free-solid-svg-icons" "^5.10.2"
-    ember-cli-babel "^7.7.3"
-    ember-cli-htmlbars "^3.0.1"
+    ember-cli-babel "^7.11.1"
+    ember-cli-htmlbars "^4.0.5"
     ember-cli-sass "^10.0.1"
     ember-css-modules "^1.2.1"
     ember-css-modules-sass "^1.0.1"
@@ -4385,7 +4385,7 @@ ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.1.2, ember-cli-babel@^7.1.3, ember-cli-babel@^7.11.0, ember-cli-babel@^7.11.1, ember-cli-babel@^7.12.0, ember-cli-babel@^7.4.1, ember-cli-babel@^7.7.3, ember-cli-babel@^7.8.0:
+ember-cli-babel@^7.1.2, ember-cli-babel@^7.1.3, ember-cli-babel@^7.11.0, ember-cli-babel@^7.11.1, ember-cli-babel@^7.12.0, ember-cli-babel@^7.7.3, ember-cli-babel@^7.8.0:
   version "7.12.0"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.12.0.tgz#064997d199384be8c88d251f30ef67953d3bddc5"
   integrity sha512-+EGQsbPvh19nNXHCm6rVBx2CdlxQlzxMyhey5hsGViDPriDI4PFYXYaFWdGizDrmZoDcG/Ywpeph3hl0NxGQTg==
@@ -4481,7 +4481,7 @@ ember-cli-htmlbars@^3.0.0, ember-cli-htmlbars@^3.0.1, ember-cli-htmlbars@^3.1.0:
     json-stable-stringify "^1.0.1"
     strip-bom "^3.0.0"
 
-ember-cli-htmlbars@^4.0.0:
+ember-cli-htmlbars@^4.0.0, ember-cli-htmlbars@^4.0.5:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-4.0.8.tgz#e87b62e7040bd478a2d007053bdb1644dd1685b0"
   integrity sha512-B6fzlqmv2E2dl8P6UIYu3bY8nZU2kKfl1VkEIgxFAINfsu9fP65kX/bKzHqGhHF8nAtWBoXZWw6tomHKfUT/Jg==
@@ -4987,16 +4987,6 @@ ember-truth-helpers@^2.1.0:
   integrity sha512-BQlU8aTNl1XHKTYZ243r66yqtR9JU7XKWQcmMA+vkqfkE/c9WWQ9hQZM8YABihCmbyxzzZsngvldokmeX5GhAw==
   dependencies:
     ember-cli-babel "^6.6.0"
-
-ember-welcome-page@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/ember-welcome-page/-/ember-welcome-page-4.0.0.tgz#14f5ef8b477f9480c39548d3ebd51f5c4ffb0a14"
-  integrity sha512-2lpElRFDjFVE0LohJn9j7FWYt5rGHZ7TmiPgknsS+9BYFFmaJnBQKAz9KZXxWRmS/mCjVUuUec1YhojtOJJ/Sg==
-  dependencies:
-    broccoli-funnel "^2.0.2"
-    ember-cli-babel "^7.4.1"
-    ember-cli-htmlbars "^3.0.1"
-    ember-compatibility-helpers "^1.1.2"
 
 ember-wormhole@^0.5.5:
   version "0.5.5"
