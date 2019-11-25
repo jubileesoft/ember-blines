@@ -4,10 +4,14 @@
       <JubileeSelect
         @items={{@model}}
         @selectedItem={{this.selectedStop}}
-        @onChange={{action (mut this.selectedStop)}} as |stop|
+        @onChange={{fn this.selectedStopChanged}} as |stop|
       >
         {{stop.name}}
       </JubileeSelect>
+      {{#each this.stopEvents as |stopEvent|}}
+        {{stopEvent.comment}}
+        <br>
+      {{/each}}
     </div>
   </div>
 </div>

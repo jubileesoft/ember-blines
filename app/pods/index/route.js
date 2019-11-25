@@ -41,7 +41,8 @@ export default class IndexRoute extends Route {
   setupController(controller, model) {
     super.setupController(controller, model);
 
-    this.controllerFor('index').set('selectedStop', model[0]);
+    controller.set('selectedStop', model[0]);
+    controller.getStopEvents();
   }
 
   // #endregion Hooks
